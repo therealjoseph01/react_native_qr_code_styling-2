@@ -9,8 +9,6 @@ const defaultValues = {
   image: '',
 };
 
-const SOURCE_PATH = './source.html';
-
 type dotTypeValues =
   | 'rounded'
   | 'dots'
@@ -296,8 +294,11 @@ const QRGenerator = ({
   return (
     <WebView
       ref={webViewRef}
-      source={require(SOURCE_PATH)}
+      source={{html: require('./source').template()}}
+      originWhitelist={['*']}
       onLoad={loadContent}
+      onError={() => {}}
+      renderError={() => null}
       style={webViewStyle}
       scrollEnabled={false}
       onMessage={handleMessage}
