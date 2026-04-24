@@ -1,7 +1,7 @@
 {
-  "name": "react_native_qr_code_styling-2",
+  "name": "react_native_qr_code_styling_2",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
