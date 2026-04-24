@@ -3,8 +3,8 @@ React Native library for generating QR codes with a logo and styling based on [q
 
 If you have issues / suggestions / notes / questions, please open an issue or contact me. Let's create a cool library together.
 <p align="center">
-    <a href="https://www.npmjs.com/package/react-native-qr-code-styling"><img alt="npm version" src="https://img.shields.io/npm/v/react-native-qr-code-styling.svg?style=flat-square"></a>
-    <a href="https://www.npmjs.com/package/react-native-qr-code-styling"><img alt="npm version" src="http://img.shields.io/npm/dm/react-native-qr-code-styling.svg?style=flat-square"></a>
+    <a href="https://www.npmjs.com/package/react_native_qr_code_styling_2"><img alt="npm version" src="https://img.shields.io/npm/v/react_native_qr_code_styling_2.svg?style=flat-square"></a>
+    <a href="https://www.npmjs.com/package/react_native_qr_code_styling_2"><img alt="npm downloads" src="http://img.shields.io/npm/dm/react_native_qr_code_styling_2.svg?style=flat-square"></a>
 </p>
 ### Examples
 <p float="left">
@@ -16,13 +16,13 @@ If you have issues / suggestions / notes / questions, please open an issue or co
 ### Installation
 
 ```
-npm install react-native-qr-code-styling
+npm install react_native_qr_code_styling_2
 ```
 
 ### Usage
 
 ```HTML
-import QRGenerator from 'react-native-qr-code-styling'
+import QRGenerator from 'react_native_qr_code_styling_2'
 
 const viewDataBase64 = (e: string) => {};
 <QRGenerator
